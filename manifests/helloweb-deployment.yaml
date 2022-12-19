@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0
+        image: acrworkflow1671486583191.azurecr.io/image-workflow-1671486583191
         ports:
         - containerPort: 8080
         resources:
